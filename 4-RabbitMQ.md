@@ -31,6 +31,7 @@
 
 ### Ответ
 
+![Задание 1](https://github.com/ip75wester/BD-dz/tree/main/screenshots/2/1.PNG)
 
 ### Задание 2. Отправка и получение сообщений
 
@@ -46,8 +47,9 @@ $ pip install pika
 Для закрепления материала можете попробовать модифицировать скрипты, чтобы поменять название очереди и отправляемое сообщение.
 
 ### Ответ
+![Задание 2](https://github.com/ip75wester/BD-dz/tree/main/screenshots/2/2.PNG)
 
-
+![Задание 2](https://github.com/ip75wester/BD-dz/tree/main/screenshots/2/3.PNG)
 
 ### Задание 3. Подготовка HA кластера
 
@@ -76,8 +78,5 @@ $ rabbitmqadmin get queue='hello'
 
 ### Ответ
 
-
-
-
-![Задание 4](https://github.com/ip75wester/BD-dz/tree/main/screenshots/1/4.PNG)
+Не могу создать кластер, подскажите, куда копнуть?
 
