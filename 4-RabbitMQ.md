@@ -50,11 +50,11 @@ $ pip install pika
 
 очередь hello
 
-![Задание 2](https://github.com/ip75wester/BD-dz/tree/main/screenshots/2.PNG)
+![Задание 2.1](https://github.com/ip75wester/BD-dz/tree/main/screenshots/2.PNG)
 
 скриншот результата выполнения скрипта consumer.py
 
-![Задание 2](https://github.com/ip75wester/BD-dz/tree/main/screenshots/3.PNG)
+![Задание 2.2](https://github.com/ip75wester/BD-dz/tree/main/screenshots/3.PNG)
 
 ### Задание 3. Подготовка HA кластера
 
@@ -85,36 +85,36 @@ $ rabbitmqadmin get queue='hello'
 
 Информация о доступных нодах в кластере 
 
-![Задание 3](https://github.com/ip75wester/BD-dz/tree/main/screenshots/4.PNG)
+![Задание 3.1](https://github.com/ip75wester/BD-dz/tree/main/screenshots/4.PNG)
 
 
 
-![Задание 3](https://github.com/ip75wester/BD-dz/tree/main/screenshots/5.PNG)
+![Задание 3.2](https://github.com/ip75wester/BD-dz/tree/main/screenshots/5.PNG)
 
 
 Вывод команды с двух нод: rabbitmqctl cluster_status и rabbitmqadmin get queue='hello'
 
-![Задание 3](https://github.com/ip75wester/BD-dz/tree/main/screenshots/6.PNG)
+![Задание 3.3](https://github.com/ip75wester/BD-dz/tree/main/screenshots/6.PNG)
 
 
-![Задание 3](https://github.com/ip75wester/BD-dz/tree/main/screenshots/9.PNG)
+![Задание 3.4](https://github.com/ip75wester/BD-dz/tree/main/screenshots/9.PNG)
 
 
-![Задание 3](https://github.com/ip75wester/BD-dz/tree/main/screenshots/8.PNG)
+![Задание 3.5](https://github.com/ip75wester/BD-dz/tree/main/screenshots/8.PNG)
 
 
-![Задание 3](https://github.com/ip75wester/BD-dz/tree/main/screenshots/10.PNG)
+![Задание 3.6](https://github.com/ip75wester/BD-dz/tree/main/screenshots/10.PNG)
 
 
 Запускаю скрипт producer.py
 
-![Задание 3](https://github.com/ip75wester/BD-dz/tree/main/screenshots/7.PNG)
+![Задание 3.7](https://github.com/ip75wester/BD-dz/tree/main/screenshots/7.PNG)
 
 
 Отключаю одну из нод и запускаю consumer.py вывод тот же
 
-![Задание 3](https://github.com/ip75wester/BD-dz/tree/main/screenshots/11.PNG)
+![Задание 3.8](https://github.com/ip75wester/BD-dz/tree/main/screenshots/11.PNG)
 
 
 
-![Задание 3](https://github.com/ip75wester/BD-dz/tree/main/screenshots/12.PNG)
+![Задание 3.9](https://github.com/ip75wester/BD-dz/tree/main/screenshots/12.PNG)
