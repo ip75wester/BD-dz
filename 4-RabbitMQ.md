@@ -31,7 +31,7 @@
 
 ### Ответ
 
-![Задание 1](https://github.com/ip75wester/BD-dz/tree/main/screenshots/2/1.PNG)
+![Задание 1](https://github.com/ip75wester/BD-dz/tree/main/screenshots/1.PNG)
 
 ### Задание 2. Отправка и получение сообщений
 
@@ -47,9 +47,14 @@ $ pip install pika
 Для закрепления материала можете попробовать модифицировать скрипты, чтобы поменять название очереди и отправляемое сообщение.
 
 ### Ответ
-![Задание 2](https://github.com/ip75wester/BD-dz/tree/main/screenshots/2/2.PNG)
 
-![Задание 2](https://github.com/ip75wester/BD-dz/tree/main/screenshots/2/3.PNG)
+очередь hello
+
+![Задание 2](https://github.com/ip75wester/BD-dz/tree/main/screenshots/2.PNG)
+
+скриншот результата выполнения скрипта consumer.py
+
+![Задание 2](https://github.com/ip75wester/BD-dz/tree/main/screenshots/3.PNG)
 
 ### Задание 3. Подготовка HA кластера
 
@@ -78,5 +83,38 @@ $ rabbitmqadmin get queue='hello'
 
 ### Ответ
 
-Не могу создать кластер, подскажите, куда копнуть?
+Информация о доступных нодах в кластере 
 
+![Задание 3](https://github.com/ip75wester/BD-dz/tree/main/screenshots/4.PNG)
+
+
+
+![Задание 3](https://github.com/ip75wester/BD-dz/tree/main/screenshots/5.PNG)
+
+
+Вывод команды с двух нод: rabbitmqctl cluster_status и rabbitmqadmin get queue='hello'
+
+![Задание 3](https://github.com/ip75wester/BD-dz/tree/main/screenshots/6.PNG)
+
+
+![Задание 3](https://github.com/ip75wester/BD-dz/tree/main/screenshots/9.PNG)
+
+
+![Задание 3](https://github.com/ip75wester/BD-dz/tree/main/screenshots/8.PNG)
+
+
+![Задание 3](https://github.com/ip75wester/BD-dz/tree/main/screenshots/10.PNG)
+
+
+Запускаю скрипт producer.py
+
+![Задание 3](https://github.com/ip75wester/BD-dz/tree/main/screenshots/7.PNG)
+
+
+Отключаю одну из нод и запускаю consumer.py вывод тот же
+
+![Задание 3](https://github.com/ip75wester/BD-dz/tree/main/screenshots/11.PNG)
+
+
+
+![Задание 3](https://github.com/ip75wester/BD-dz/tree/main/screenshots/12.PNG)
