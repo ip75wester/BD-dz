@@ -43,7 +43,7 @@
 
 
 
-![Задание 2](ip75wester/BD-dz/tree/main/screenshots/2.PNG)
+![Задание 2](https://github.com/ip75wester/BD-dz/blob/main/2.PNG)
 
 
 
@@ -57,7 +57,7 @@
 
 
 
-![Задание 3](https://github.com/ip75wester/BD-dz/tree/main/screenshots/4.PNG)
+![Задание 3](https://github.com/ip75wester/BD-dz/blob/main/3.PNG)
 
 ### Задание 4. Filebeat.
 Установите и запустите Filebeat. Переключите поставку логов Nginx с Logstash на Filebeat.
@@ -67,7 +67,7 @@
 ### Ответ
 
 
-![Задание 4](https://github.com/ip75wester/BD-dz/tree/main/screenshots/5.PNG)
+![Задание 4](https://github.com/ip75wester/BD-dz/blob/main/4.PNG)
 
 
 
