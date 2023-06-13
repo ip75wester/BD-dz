@@ -41,13 +41,11 @@
 
 ### Ответ
 
-очередь hello
 
-![Задание 2.1](https://github.com/ip75wester/BD-dz/tree/main/screenshots/2.PNG)
 
-скриншот результата выполнения скрипта consumer.py
+![Задание 2](github.com/ip75wester/BD-dz/tree/main/screenshots/2.PNG)
 
-![Задание 2.2](https://github.com/ip75wester/BD-dz/tree/main/screenshots/3.PNG)
+
 
 ### Задание 3. Logstash
 
@@ -57,16 +55,19 @@
 
 ### Ответ
 
-Информация о доступных нодах в кластере 
 
-![Задание 3.1](https://github.com/ip75wester/BD-dz/tree/main/screenshots/4.PNG)
+
+![Задание 3](https://github.com/ip75wester/BD-dz/tree/main/screenshots/4.PNG)
 
 ### Задание 4. Filebeat.
 Установите и запустите Filebeat. Переключите поставку логов Nginx с Logstash на Filebeat.
 
 Приведите скриншот интерфейса Kibana, на котором видны логи Nginx, которые были отправлены через Filebeat.
 
-![Задание 3.2](https://github.com/ip75wester/BD-dz/tree/main/screenshots/5.PNG)
+### Ответ
+
+
+![Задание 4](https://github.com/ip75wester/BD-dz/tree/main/screenshots/5.PNG)
 
 
 
