@@ -31,7 +31,7 @@
 
 ### Ответ
 
-![Задание 1](https://github.com/ip75wester/BD-dz/tree/main/screenshots/1.PNG)
+![Задание 1](https://github.com/ip75wester/BD-dz/blob/main/1.PNG)
 
 ### Задание 2. Kibana
 
