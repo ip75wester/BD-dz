@@ -43,7 +43,7 @@
 
 
 
-![Задание 2](github.com/ip75wester/BD-dz/tree/main/screenshots/2.PNG)
+![Задание 2](ip75wester/BD-dz/tree/main/screenshots/2.PNG)
 
 
 
