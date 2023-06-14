@@ -28,11 +28,25 @@
 
 1.2. Создайте учётную запись sys_temp.
 
+CREATE USER 'sys_temp'@'localhost' IDENTIFIED BY 'password';
+
 1.3. Выполните запрос на получение списка пользователей в базе данных. (скриншот)
+
+
+![Скриншот](https://github.com/ip75wester/BD-dz/1-1.PNG)
+
+
+select user,host from mysql.user;
 
 1.4. Дайте все права для пользователя sys_temp.
 
+GRANT ALL PRIVILEGES ON *.* TO 'sys_temp'@'localhost';
+
 1.5. Выполните запрос на получение списка прав для пользователя sys_temp. (скриншот)
+
+SHOW GRANTS FOR 'sys_temp'@'localhost';
+
+![Скриншот](https://github.com/ip75wester/BD-dz/1-2.PNG)
 
 1.6. Переподключитесь к базе данных от имени sys_temp.
 
@@ -40,18 +54,30 @@
 
 ALTER USER 'sys_test'@'localhost' IDENTIFIED WITH mysql_native_password BY 'password';
 
+![Скриншот](https://github.com/ip75wester/BD-dz/1-3.PNG)
+
 1.6. По ссылке https://downloads.mysql.com/docs/sakila-db.zip скачайте дамп базы данных.
 
 1.7. Восстановите дамп в базу данных.
+
+![Скриншот](https://github.com/ip75wester/BD-dz/1-4.PNG)
+
+![Скриншот](https://github.com/ip75wester/BD-dz/1-5.PNG)
 
 1.8. При работе в IDE сформируйте ER-диаграмму получившейся базы данных. При работе в командной строке используйте команду для получения всех таблиц базы данных. (скриншот)
 
 Результатом работы должны быть скриншоты обозначенных заданий, а также простыня со всеми запросами.
 
+SHOW FULL TABLES;
 
-### Ответ
+![Скриншот](https://github.com/ip75wester/BD-dz/1-6.PNG)
 
-![Задание 1](https://github.com/ip75wester/BD-dz/tree/main/screenshots/1.PNG)
+
+![Скриншот](https://github.com/ip75wester/BD-dz/1-7.PNG)
+
+
+![Скриншот](https://github.com/ip75wester/BD-dz/1-8.PNG)
+
 
 ### Задание 2. Отправка и получение сообщений
 
@@ -60,3 +86,6 @@ ALTER USER 'sys_test'@'localhost' IDENTIFIED WITH mysql_native_password BY 'pass
 Название таблицы | Название первичного ключа
 customer         | customer_id
 
+
+
+![Скриншот](https://github.com/ip75wester/BD-dz/2-1.PNG)
