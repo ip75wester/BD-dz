@@ -56,6 +56,9 @@ where date(p.payment_date) = '2005-07-30' and p.payment_date = r.rental_date and
 Необходимо:
 
 - Убрать из запроса лишнее поле f.title и лишнюю таблицу film f
+- Оконную функцию переписать на group by
+- Убрать distinct
+- Добавить условие соединения таблиц JOIN 
 - Создать индекс по полю p.payment_date
 
 
