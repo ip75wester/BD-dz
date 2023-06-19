@@ -66,7 +66,21 @@ where date(p.payment_date) = '2005-07-30' and p.payment_date = r.rental_date and
 
 
 
+explain analyze
 
+select concat(c.last_name, ' ', c.first_name), sum(p.amount)
+
+from payment p
+
+JOIN rental r ON p.payment_date = r.rental_date
+
+JOIN customer c ON r.customer_id = c.customer_id
+
+JOIN inventory i ON i.inventory_id = r.inventory_id
+
+where payment_date >= '2005-07-30' and payment_date < DATE_ADD('2005-07-30', INTERVAL 1 DAY) 
+
+group by c.customer_id
 
 
 ![Скриншот](https://github.com/ip75wester/BD-dz/blob/main/za6.PNG)
