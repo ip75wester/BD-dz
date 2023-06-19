@@ -1,4 +1,4 @@
-# Домашнее задание к занятию "`SQL. Часть 2`" - `Илья Попов`
+# Домашнее задание к занятию "`Индексы`" - `Илья Попов`
 
 
 ### Инструкция по выполнению домашнего задания
@@ -62,5 +62,11 @@ where date(p.payment_date) = '2005-07-30' and p.payment_date = r.rental_date and
 - Создать индекс по полю p.payment_date
 
 
-![Скриншот](https://github.com/ip75wester/BD-dz/blob/main/za4.PNG)
+![Скриншот](https://github.com/ip75wester/BD-dz/blob/main/za5.PNG)
 
+
+
+
+
+
+![Скриншот](https://github.com/ip75wester/BD-dz/blob/main/za6.PNG)
